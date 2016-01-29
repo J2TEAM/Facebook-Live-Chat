@@ -49,11 +49,14 @@ Or see [example.html](example.html).
 | animation_speed         | Number/String  | 400            |
 | auto_show_delay         | Number         | 0              |
 
-Note:
+**Note:**
 
-- Only the key `facebook_page` is required.
+- `sdk_locale` is [Locales and Languages Supported by Facebook](https://www.facebook.com/translations/FacebookLocales.xml).
+- Only `facebook_page` is required.
 - `position` can be "left" or "right".
 - `animation_speed` is jQuery duration (slow/400/fast).
+- Keep `auto_show_delay` equal to 0 if you don't want to show automatically.
+- The unit of `animation_speed` and `auto_show_delay` is millisecond.
 
 ## Contributing
 
