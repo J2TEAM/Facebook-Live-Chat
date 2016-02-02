@@ -17,7 +17,7 @@ A jQuery plugin to embed Facebook Live Chat into your website, blog, or forum.
     </head>
     <body>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-        <script src="fb-live-chat.js"></script>
+        <script src="fb-live-chat.min.js"></script>
         <script>
         fbLiveChat.init({
             sdk_locale: 'en_US',
